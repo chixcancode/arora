@@ -4,11 +4,12 @@
 
 ### Overview
 
-This solution deploys a Windows Azure App Services web app into a subnet using regional virtual network integration. An Azure SQL DB and a storage account are also created, each with its own private link and private DNS resources to allow access from the web app over a private address space. Firewall rules are added to the storage account to prevent public access & the Azure SQL Server is configured to disallow public traffic. A dns record is created in each zone for the Azure SQL Server and storage account.
+This solution deploys a Windows Azure App Service Web App into a subnet using Regional Virtual Network Integration, an Azure SQL Database with Private Link and Private DNS resources, an Azure Storage Account with Private Link and Private DNS resources, and an Azure Application Gateway. Azure Private Link is used to allow access to the Azure SQL Database and Azure Storage Account from the Azure Web App. Firewall rules are added to the storage account to prevent public access & the Azure SQL Server is configured to disallow public traffic. A DNS record is created in each zone for the Azure SQL Server and Azure Storage Account.
 
 The following resources are deployed as part of this solution
 
 - Hub Virtual Network (10.1.0.0/16)
+  - ApplicationGatewaySubnet 10.1.0.0/24
   - PrivateLinkSubnet (10.1.1.0/24)
 - Spoke Virtual Network(10.2.0.0/16)
   - AppSvcSubnet (10.2.1.0/24)
@@ -22,6 +23,8 @@ The following resources are deployed as part of this solution
   - Private DNS zone
 - App Service Web app
   - Regional virtual network integration
+- Azure Application Gateway
+  - Public IP ADdress
 
   Note that for traffic to pass from the web app to the private endpoints, the following web app environment variables must be set in the app.json nested template.
 
