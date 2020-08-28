@@ -1,4 +1,4 @@
-# Azure App service web app regional vNet integration, SQL DB and Azure Storage account Private endpoint scenario 
+# Azure App Servie Web App with Regional Virtual Network Integration, SQL DB, Azure Storage Account, Azure Application Gateway, and Private Endpoint Scenario
 
 [![Deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjoshuawaddell%2Farora%2Fazuredeploy.json)
 
