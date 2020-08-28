@@ -55,6 +55,8 @@
         "storagePrivateDnsZoneName": "privatelink.blob.core.windows.net",
         "sqlPrivateDnsZoneName": "privatelink.database.windows.net",
         "sqlDatabaseName": "mydb01",
+        "applicationGatewayPublicIPAddressName": "pipappgw",
+        "applicationGatewayName": "appgw",
         "storageContainerName": "mycontainer",
         "storageGroupType": "blob", // valid values: 'blob', 'file', 'table', 'queue', 'web', 'dfs'
         "sqlGroupType": "sqlServer", // valid values: 'sqlServer'
@@ -245,6 +247,12 @@
                     "location": {
                         "value": "[parameters('location')]"
                     }
+                },
+                "appGatewayPublicIPAddressName": {
+                    "value": "[variables('applicationGatewayPublicIPAddressName')]"
+                },
+                "appGatewayName": {
+                    "value": "[variables('applicationGatewayName')]"
                 },
                 "subnet": {
                         "value": "[reference(resourceId('Microsoft.Resources/deployments', 'linkedTemplate-vnet-0')).outputs.subnetResourceIds.value[0].id]"
