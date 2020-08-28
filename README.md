@@ -1,21 +1,6 @@
 # Azure App service web app regional vNet integration, SQL DB and Azure Storage account Private endpoint scenario 
 
-![Azure Public Test Date](https://azurequickstartsservice.blob.core.windows.net/badges/301-web-app-regional-vnet-private-endpoint-sql-storage/PublicLastTestDate.svg)
-![Azure Public Test Result](https://azurequickstartsservice.blob.core.windows.net/badges/301-web-app-regional-vnet-private-endpoint-sql-storage/PublicDeployment.svg)
-
-![Azure US Gov Last Test Date](https://azurequickstartsservice.blob.core.windows.net/badges/301-web-app-regional-vnet-private-endpoint-sql-storage/FairfaxLastTestDate.svg)
-![Azure US Gov Last Test Result](https://azurequickstartsservice.blob.core.windows.net/badges/301-web-app-regional-vnet-private-endpoint-sql-storage/FairfaxDeployment.svg)
-
-![Best Practice Check](https://azurequickstartsservice.blob.core.windows.net/badges/301-web-app-regional-vnet-private-endpoint-sql-storage/BestPracticeResult.svg)
-![Cred Scan Check](https://azurequickstartsservice.blob.core.windows.net/badges/301-web-app-regional-vnet-private-endpoint-sql-storage/CredScanResult.svg)
-
 [![Deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjoshuawaddell%2Farora%2Fazuredeploy.json)
-
-https://raw.githubusercontent.com/joshuawaddell/arora/master/azuredeploy.json
-
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjoshuawaddell%2Farora%2Fazuredeploy.json)
-
-
 
 ### Overview
 
