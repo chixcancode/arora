@@ -13,15 +13,13 @@
             "type": "string",
             "metadata": {
                 "description": "name of application gateway public ip address"
-            },
-            "defaultValue": "pipappgw"
+            }
         },
         "appGatewayName": {
             "type": "string",
             "metadata": {
                 "description": "name of application gateway"
-            },
-            "defaultValue": "appgw"
+            }
         },
         "subnet": {
             "type": "string",
