@@ -7,7 +7,7 @@
             "metadata": {
                 "description": "The base URI where artifacts required by this template are located including a trailing '/'"
             },
-            "defaultValue": "https://raw.githubusercontent.com/joshuawaddell/arora/"
+            "defaultValue": "https://raw.githubusercontent.com/joshuawaddell/arora/master/"
         },
         "_artifactsLocationSasToken": {
             "type": "secureString",
