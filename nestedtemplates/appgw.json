@@ -62,7 +62,7 @@
             "name": "[parameters('appGatewayName')]",
             "location": "[parameters('location')]",
             "dependsOn": [
-                "[concat('Microsoft.Network/publicIPAddresses/', parameters('appGatewayPublicIPAddressName'))]"
+                "[resourceId('Microsoft.Network/publicIPAddresses', parameters('appGatewayPublicIPAddressName'))]"
             ],
             "properties": {
                 "sku": {
