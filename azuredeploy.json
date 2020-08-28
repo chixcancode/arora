@@ -246,20 +246,20 @@
                 "parameters": {
                     "location": {
                         "value": "[parameters('location')]"
-                    }
-                },
-                "appGatewayPublicIPAddressName": {
+                    },
+                    "appGatewayPublicIPAddressName": {
                     "value": "[variables('applicationGatewayPublicIPAddressName')]"
-                },
-                "appGatewayName": {
-                    "value": "[variables('applicationGatewayName')]"
-                },
-                "subnet": {
-                        "value": "[reference(resourceId('Microsoft.Resources/deployments', 'linkedTemplate-vnet-0')).outputs.subnetResourceIds.value[0].id]"
-                },
-                "appName": {
-                        "value": "[variables('appName')]"
-                }
+                    },
+                    "appGatewayName": {
+                        "value": "[variables('applicationGatewayName')]"
+                    },
+                    "subnet": {
+                            "value": "[reference(resourceId('Microsoft.Resources/deployments', 'linkedTemplate-vnet-0')).outputs.subnetResourceIds.value[0].id]"
+                    },
+                    "appName": {
+                            "value": "[variables('appName')]"
+                    }
+                }                
             }
         },
         {
