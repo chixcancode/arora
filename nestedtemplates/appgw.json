@@ -157,7 +157,7 @@
                             },
                             "protocol": "Http",
                             "hostName": "[concat(parameters('appName'), '.azurewebsites.net')]",
-                            "requireServerNameIndication": true
+                            "requireServerNameIndication": false
                         }
                     }
                 ],
